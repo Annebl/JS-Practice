@@ -41,7 +41,6 @@ console.log(arr7.concat(arr7Copy));
 });
 
 // Searching in array
-
 console.log((arr1).indexOf("study"));
 
 console.log(arr4.includes(7));
@@ -56,12 +55,10 @@ let user = users.find(item => item.id === 2);
 console.log(user.name);
 
 // Map
-
 let lengths = ["Oleksii", "Anna", "Yuliia"].map(item => item.length);
 console.log(lengths);
 
 // Sort
-
 function compareNumeric (a, b) {
     if (a > b) return 1;
     if (a < b) return -1;
