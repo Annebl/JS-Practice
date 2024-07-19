@@ -77,7 +77,6 @@ let anna = {name: 'Anna'};
 let oleksii = {name: 'Oleksii'};
 let olga = {name: 'Olga'};
 
-
 set.add(anna);
 set.add(oleksii);
 set.add(oleksii);
